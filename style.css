@@ -5,6 +5,21 @@ body{
     overflow-x: hidden;
 }
 
+
+
+
+/* Footer Text */
+.text{
+    padding: 1em;
+    max-width: 80vw;
+}
+
+.menu a, a:hover{
+    color: #cabdbd;
+    text-decoration: none;
+}
+
+
 /*-------------Scroll-Bar-------------*/
 
 ::-webkit-scrollbar {
