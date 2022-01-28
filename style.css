@@ -35,13 +35,13 @@ body{
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: linear-gradient(#dd0f92c7,#9843cac9); 
+    background: linear-gradient(#ecf00cc7,#dad87cc9); 
     border-radius: 10px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: linear-gradient(#dd0f91,#9943ca);
+    background: linear-gradient(#ecf00cc7,#dad87cc9);
 }
 
 /*---------------Scroll-Bar end--------------*/
@@ -163,7 +163,7 @@ nav button.btn:hover, #home button:hover{
 #home h1{
     font-family: 'Noto Sans SC', sans-serif;
     font-size: 6rem;
-    background: -webkit-linear-gradient(-45deg, rgb(221, 20, 154), rgb(164, 10, 202), rgb(0, 195, 255));
+    background: linear-gradient(rgb(230, 198, 16), rgb(202, 202, 158));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -250,6 +250,15 @@ nav button.btn:hover, #home button:hover{
     margin: 10px;
     background-color: rgba(255, 255, 255, 0.25);
     border-radius: 50%;
+}
+
+.row button {
+    background: linear-gradient(45deg, gold, white);
+    /* background: radial-gradient(rgb(255, 255, 255),gold); */
+    padding: 1em;
+    border-radius: 0.5em;
+    color: #080b1f;
+    font-weight: bold;
 }
 
 /* ----------------Timeline----------------- */
