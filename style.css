@@ -356,7 +356,7 @@ box-shadow: 0 0 0 4px rgb(255, 136, 0), inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px
 }
 
 .cd-timeline-img {
-background: #140926;
+background: radial-gradient(black,darkorange);
 }
 
 @media only screen and (min-width: 1170px) {
