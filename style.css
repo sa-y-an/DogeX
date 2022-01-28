@@ -267,7 +267,7 @@ nav button.btn:hover, #home button:hover{
     width: 90%;
     max-width: 1080px;
     margin: 0 auto;
-    background: #080b1f;
+    background: radial-gradient(rgb(29, 28, 28), black);
     padding: 0 10%;
     border-radius: 2px;
   }
@@ -298,7 +298,7 @@ top: 0;
 left: 25px;
 height: 100%;
 width: 4px;
-background: #7E57C2;
+background: linear-gradient(45deg, gold, darkorange);
 }
 
 @media only screen and (min-width: 1170px) {
@@ -352,7 +352,7 @@ left: 12px;
 width: 30px;
 height: 30px;
 border-radius: 50%;
-box-shadow: 0 0 0 4px #7E57C2, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+box-shadow: 0 0 0 4px rgb(255, 136, 0), inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
 }
 
 .cd-timeline-img {
@@ -372,12 +372,12 @@ background: #140926;
 position: relative;
 margin-left: 60px;
 margin-right: 30px;
-background: #230e49;
+background: linear-gradient(45deg,darkorange,gold);
 border-radius: 2px;
 padding: 1em;
 }
 .cd-timeline-content .timeline-content-info {
-background: #2B343A;
+background: #3a372b;
 padding: 5px 10px;
 color: rgba(255, 255, 255, 0.7);
 font-size: 12px;
@@ -406,7 +406,7 @@ flex-wrap: wrap;
 justify-content: center;
 }
 .cd-timeline-content .content-skills li {
-background: #40484D;
+background: gold;
 border-radius: 2px;
 display: inline-block;
 padding: 2px 10px;
@@ -483,7 +483,7 @@ border-right: 7px solid #333C42;
     top: 24px;
     left: 100%;
     border-color: transparent;
-    border-left-color: #673AB7;
+    border-left-color: goldenrod;
 }
 
 .cd-timeline-content .cd-date {
@@ -504,7 +504,7 @@ border-right: 7px solid #333C42;
     left: auto;
     right: 100%;
     border-color: transparent;
-    border-right-color: #673AB7;
+    border-right-color: goldenrod;
 }
 
 .cd-timeline-block:nth-child(even) .cd-timeline-content .cd-read-more {
