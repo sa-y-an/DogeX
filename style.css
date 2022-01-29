@@ -163,7 +163,7 @@ nav button.btn:hover, #home button:hover{
 #home h1{
     font-family: 'Noto Sans SC', sans-serif;
     font-size: 6rem;
-    background: linear-gradient(rgb(230, 198, 16), rgb(202, 202, 158));
+    background: linear-gradient(45deg, gold, brown);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -253,12 +253,17 @@ nav button.btn:hover, #home button:hover{
 }
 
 .row button {
-    background: linear-gradient(45deg, gold, white);
+    background: linear-gradient(45deg, gold, brown);
     /* background: radial-gradient(rgb(255, 255, 255),gold); */
     padding: 1em;
     border-radius: 0.5em;
     color: #080b1f;
     font-weight: bold;
+    /* background: -webkit-linear-gradient(#eee, #333); */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    box-shadow: 2.5px 5px 5px goldenrod;
+  
 }
 
 /* ----------------Timeline----------------- */
